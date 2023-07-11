@@ -1,0 +1,9 @@
+.userTitle {
+  font-size: 3rem;
+  background-color: yellow;
+  /* display: block; */
+}
+
+.item {
+  margin: 2rem;
+}
