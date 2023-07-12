@@ -20,13 +20,24 @@ async function getPostData() {
 const About = async () => {
   // const contacts = ["admin", "moderator", "captain"];
   const data = await getPostData();
-  console.log("=====> postsdata", data);
+      console.log("=====> postsdata", data);
+      
+      console.log("hiiiiiiiiiiii");
   return (
     <div>
       <h2>About page</h2>
       {data.map((post: any) => {
         return (
           <>
+            <Link href={`/aboutus/${post._id}`} key={post.id}>
+              {post.title}
+            </Link>
+            <Link href={`/aboutus/${post._id}`} key={post.id}>
+              {post.title}
+            </Link>
+            <Link href={`/aboutus/${post._id}`} key={post.id}>
+              {post.title}
+            </Link>
             <Link href={`/aboutus/${post._id}`} key={post.id}>
               {post.title}
             </Link>

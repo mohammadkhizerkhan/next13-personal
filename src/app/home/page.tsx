@@ -15,6 +15,7 @@ import { prisma } from "../db";
 const Home = () => {
   return (
     <>
+    <h1>HI</h1>
       {/* <form action={submitTodo}>
         <input placeholder="enter todo here" type="text" name="todoInput" />
         <div>
