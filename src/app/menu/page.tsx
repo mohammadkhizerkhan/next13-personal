@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { User } from "../interfaces/main";
 import styles from "./page.module.css";
+import { User } from "../../../interfaces/main";
 
 async function getData() {
   const res = await fetch("https://jsonplaceholder.typicode.com/users/");
